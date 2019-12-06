@@ -42,7 +42,7 @@ class MaskFilterView constructor(
         canvas?.drawBitmap(mBitmap, (mBitmap.width + 200).toFloat(), 50f, mPaint)
 
         // 第三个：OUTER
-        mPaint.maskFilter = blurMaskFilter4
+        mPaint.maskFilter = blurMaskFilter3
         canvas?.drawBitmap(mBitmap, 100f, (mBitmap.height + 100).toFloat(), mPaint)
 
         // 第四个：SOLID
